@@ -1,0 +1,78 @@
+.navbar{
+	background:#cf5b42;
+	padding-right:20px;
+}
+ 
+.card{
+	opacity: 0.9;
+}
+
+.letra{
+font: oblique bold 120% cursive;
+}
+ 
+.card-block{
+	opacity: 0.9;
+}
+.modal-lg-arr {
+    max-width: 1400px !important;
+}
+
+.row {
+	opacity: 0.9;
+	 
+}
+.modal-header
+ {
+     padding:12px 15px;
+     border-bottom:1px solid #eee;
+     background-color: #78909c;
+ }
+ 
+/*LOGIN DIFERENTE*/
+html,
+body {
+    height: 100%;
+}
+html {
+    display: table;
+    margin: auto;
+}
+body {
+    display: table-cell;
+    vertical-align: middle;
+    background: #4ECDC4;
+}
+
+#login-page {
+   width: 500px;
+}
+
+.card {
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     -moz-transform: translate(-50%, -50%)
+     -webkit-transform: translate(-50%, -50%)
+     -ms-transform: translate(-50%, -50%)
+     -o-transform: translate(-50%, -50%)
+     transform: translate(-50%, -50%);
+}
+
+
+.animacion {
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
